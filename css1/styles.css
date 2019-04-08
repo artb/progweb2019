@@ -1,0 +1,12 @@
+p {
+    border: 10px solid black;
+    background-color: lightgray;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 36px;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 16px;
+    padding-left:16px;
+    padding-right: 26px; 
+    width: 300px;
+    margin: 6px 6px;
+}
