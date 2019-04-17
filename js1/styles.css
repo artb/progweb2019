@@ -1,0 +1,17 @@
+#tabelas{
+    padding-left:16px;
+    padding-right: 16px;
+    float : right;
+    padding: 10px;
+}
+#tabela{
+    margin: 0 20px 20px 0;
+    float : left;
+}
+#celulinha{
+    text-align: center
+}
+#celulao{
+    text-align: center;
+    font-weight: bold;
+}
