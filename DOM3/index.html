@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mouse</title>
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div id ='atras'>
+                <script>
+                    addEventListener("mousemove", function(event){
+                        while(document.querySelectorAll('div').length > 8){
+                            document.body.removeChild(document.querySelectorAll('div')[0]);
+            
+                        }
+                        pontinho = document.createElement('div');
+                        pontinho.className = "ponto";
+                        pontinho.style.left = (event.pageX - 4) + "px";
+                        pontinho.style.top = (event.pageY - 4) + "px";
+                        document.body.appendChild(pontinho);
+                    });
+                </script>
+        </div>
+    </body>
+</html>
