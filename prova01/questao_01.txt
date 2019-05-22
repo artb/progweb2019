@@ -1,0 +1,4 @@
+1- Entre as tags de <html> existem duas obrigatorias, <head> e <body>, no arquivo apresentado, falta a tag <body>
+2- A tag <comment> foi usada erroneamente, se voce deseja fazer um comentario em html é necessario fazer <!-- comentario -->
+3- Dentro da tag <style> houve uma inversão de valores, fora dos colchetes deveria estar o nome do id #para, e dentro as caracteristicas dele, width: 400px;
+4- O uso da tag <span> está incorreto, se ele gostaria de deixar em negrito algumas palavras, ele deveria por essas palavras dentro da tag <span> bla bla bla </span>, ou seja, não fechou a tag.
