@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Questao 2 da prova</title>
+    </head>
+    <body>
+        <div>
+            <input id="ent" type="text">
+            <script>
+                    var socorro = document.getElementById('ent');
+                    socorro.addEventListener('keydown', function(event){
+                        console.log(event);
+                        if(event.key == 'Q' || event.key == 'W' || event.key == 'X' 
+                        || event.key == 'q' || event.key == 'w' || event.key == 'x'){
+                            event.preventDefault();
+                            console.log("aass");
+                        }
+                    });           
+            </script>
+        </div>
+    </body>
+</html>
