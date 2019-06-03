@@ -1,0 +1,158 @@
+/* *{
+    border: thin solid black;
+} */
+
+#divmain{
+    margin: 0 auto;
+}
+
+#div2{
+    margin: 0 auto;
+}
+
+.deserto {
+    width: 500px;
+    height: 150px;
+    position: relative;
+}
+
+.chao {
+    width: 500px;
+    height: 16px;
+    background-image: url(sprites.png);
+    background-position-y: -53px;
+    position: absolute;
+    bottom: 0px;
+}
+
+#dino.correndo{
+    width: 42px;
+    height: 45px;
+    background-image: url(sprites.png);
+    background-position-y: -3px;
+    position: absolute;
+    z-index: 2;
+}
+
+#dino.agachado{
+    width: 57px;
+    height: 30px;
+    background-image: url(sprites.png);
+    background-position-y: -16px;
+    position: absolute;
+    z-index: 2;
+}
+
+.nuvem {
+    width: 47px;
+    height: 17px;
+    background-image: url(sprites.png);
+    background-position: -86px 2px;
+    position: absolute;
+    z-index: 1;
+}
+
+.pterodatilus{
+    width: 44px;
+    height: 38px;
+    background-image: url(sprites.png);
+    background-position-y: -2px;
+    position: absolute;
+    z-index: 2;
+}
+
+#cactus.jr{
+    width: 16px;
+    height: 34px;
+    background-image: url(sprites.png);
+    background-position-y: -2px;
+    position: absolute;
+    z-index: 2;
+}
+
+#cactus.jr2{
+    width: 34px;
+    height: 34px;
+    background-image: url(sprites.png);
+    background-position-y: -2px;
+    position: absolute;
+    z-index: 2;
+}
+
+#cactus.jr3{
+    width: 51px;
+    height: 34px;
+    background-image: url(sprites.png);
+    background-position-y: -2px;
+    position: absolute;
+    z-index: 2;
+}
+#cactus.gg1{
+    width: 25px;
+    height: 50px;
+    background-image: url(sprites.png);
+    background-position-y: -2px;
+    position: absolute;
+    z-index: 2;
+}
+#cactus.gg2{
+    width: 50px;
+    height: 50px;
+    background-image: url(sprites.png);
+    background-position-y: -2px;
+    position: absolute;
+    z-index: 2;
+}
+#cactus.ggjr{
+    width: 51px;
+    height: 50px;
+    background-image: url(sprites.png);
+    background-position-y: -2px;
+    position: absolute;
+    z-index: 2;
+}
+
+.score{
+    width: 9px;
+    height: 11px;
+    background-image: url(sprites.png);
+    background-position-y: -1px;
+    position: absolute;
+    z-index: 2;
+}
+
+.highscore{
+    width: 9px;
+    height: 11px;
+    background-image: url(sprites.png);
+    background-position-y: -1px;
+    position: absolute;
+    z-index: 1;
+}
+
+.hi{
+    width: 19px;
+    height: 11px;
+    background-image: url(sprites.png);
+    background-position-y: -1px;
+    position: absolute;
+    z-index: 1;
+}
+
+.gameover{
+    width: 191px;
+    height: 11px;
+    background-image: url(sprites.png);
+    background-position-y: -15px;
+    position: absolute;
+    z-index: 2;
+}
+
+.botaozinho{
+    width: 35px;
+    height: 32px;
+    background-image: url(sprites.png);
+    background-position-y: -2px;
+    position: absolute;
+    z-index: 3;
+}
